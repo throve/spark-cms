@@ -60,7 +60,9 @@ export default {
                 'TravelTech',
                 'Productivity',
                 'Ecommerce',
-                'Career'
+                'Career',
+                'Web3',
+                'Tech'
                 // Add more options if needed
               ],
             },
