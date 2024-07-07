@@ -62,7 +62,8 @@ export default {
                 'Ecommerce',
                 'Career',
                 'Web3',
-                'Tech'
+                'Tech',
+                'Others'
                 // Add more options if needed
               ],
             },
@@ -258,13 +259,15 @@ export default {
         initialValue: false, // Initial value for the spotlight field
       },
       {
-        name: 'recentlyAdded',
-        title: 'Recently Added',
+        name: 'updated',
+        title: 'Updated',
         type: 'boolean',
-        description: 'Mark as recently added? (true/false)',
-        validation: Rule => Rule.required(),
+        description: 'Was their website recently chnaged?',
+        // validation: Rule => Rule.required(),
         initialValue: true, // Initial value for the spotlight field
       },
+
+      
 
 
     ]
